@@ -1,0 +1,28 @@
+.home-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  padding-top: 80px;
+}
+
+.text-section {
+  flex: 1;
+}
+
+.text-section h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.text-section p {
+  font-size: 1.6rem;
+  margin-top: 0;
+}
+
+.image-section img {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+}

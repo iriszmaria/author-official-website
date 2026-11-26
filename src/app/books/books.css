@@ -1,0 +1,22 @@
+.books-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding-top: 80px;
+}
+
+.text-section {
+  flex: 1;
+}
+
+.text-section p {
+  font-size: 1.8rem;
+  line-height: 1.4;
+}
+
+.image-section img {
+  width: 450px; /* Adjust based on desired size */
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
